@@ -1,0 +1,83 @@
+.heading {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 8px 8px 0px 8px;
+  width: 700px;
+  margin: auto;
+}
+
+.subheading {
+  color: #131533;
+  font-style: italic;
+  font-size: 25px;
+  padding: 0 0 4px 8px;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.democenter {
+  width: 100%;
+  text-align: center;
+  background-color: #131533;
+  border-top: 4px solid #643378;
+  margin-bottom: 40px;
+}
+
+.demo {
+  display: inline-block;
+  padding: 30px 0 30px 0;
+}
+
+.demo .demotitle {
+  font-size: 30px;
+  color: #B7C2AA;
+  padding-bottom: 40px;
+}
+
+.demo .button {
+  background-color: #A054B7;
+  color: #FFFFFF;
+  display: inline;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  padding: 8px;
+}
+
+.sectionbody {
+  font-size: 20px;
+  padding: 0 0 8px 16px;
+}
+
+.body {
+  width: 600px;
+  margin: auto;
+}
+
+.mission {
+  font-style: italic;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.missionbody {
+  padding-left: 8px;
+}
