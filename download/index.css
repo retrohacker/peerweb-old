@@ -1,0 +1,61 @@
+.center {
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.centerinner {
+  display: inline-block;
+}
+
+.prompt {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.submit {
+  background-color: #A054B7;
+  color: #FFFFFF;
+  display: inline;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-bottom: #ccc solid 4px;
+  padding: 4px;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+}
+
+.loading {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKUlEQVQIW2PMSXn8nwEKjh9iYGCECYA4lnZQARgHpJDRWO3xf5AMDAAAhfUQVn3CeioAAAAASUVORK5CYII=) repeat;
+  width: 50%;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  border-radius: 20px;
+  background-size: 20px;
+  animation: animateBackground 50000s linear infinite;
+}
+
+@keyframes animateBackground {
+  from { background-position: 0 0; }
+  to { background-position: -500000% 0; }
+}
