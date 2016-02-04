@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <script src="./webtorrent-0.72.1.min.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css"></link>
+    <link rel="stylesheet" href="./font-awesome-4.5.0/css/font-awesome.min.css"></link>
+  </head>
+  <body>
+    <div class='title'>Upload Your Website</div>
+    <div class="inputs">
+      <div id='hash'></div>
+      <input type="file" id="upload" onchange="addFile()" multiple></input>
+      <div class="icon">
+        <label for="upload">
+          <span class="fa-stack-5x">
+            <i class="fa fa-file fa-5x"></i>
+            <i class="fa fa-plus fa-2x"></i>
+          </span>
+        </label>
+      </div>
+      <div class="icon" onclick="addFolder()">
+        <span class="fa-stack-5x">
+          <i class="fa fa-folder fa-5x"></i>
+          <i class="fa fa-plus fa-2x"></i>
+        </span>
+      </div>
+      <div class="icon" onclick="create_torrent()">
+        <i class="fa fa-upload fa-5x"></i>
+      </div>
+    </div>
+    <div id="tree">
+      <div class="folder">[ EMPTY ]</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+.folder, .file {
+  margin: 30px;
+}
+
+.folder .fa, .file .fa {
+  margin: 10px;
+  font-size: 26px;
+}
+
+.folderName, .fileName {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 26px;
+  border: none;
+  border-bottom: #B7C2AA solid 2px;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.folderName:focus, .fileName:focus {
+  outline: none;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 8px 8px 0px 8px;
+  width: 700px;
+  margin: auto;
+}
+
+#tree {
+  width: 95%;
+  margin: auto;
+  padding: 40px 40px 40px 10px;
+  background-color: #131533;
+  color: #FFFFFF;
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#upload, #new_folder {
+  display: none;
+}
+
+.icon {
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.inputs {
+  text-align: right;
+  width: 95%;
+  margin: auto;
+}
+
+#hash {
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  margin-right: 32px;
+}
