@@ -59,3 +59,11 @@ body {
   from { background-position: 0 0; }
   to { background-position: -500000% 0; }
 }
+
+.disclaimer {
+  font-size: 24px;
+  color #888888;
+  border-left: #888888 solid 4px;
+  padding: 10px 0 10px 24px;
+  margin-top: 24px;
+}
