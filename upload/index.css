@@ -8,7 +8,7 @@
 }
 
 .folderName, .fileName {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
   font-size: 26px;
   border: none;
   border-bottom: #B7C2AA solid 2px;
@@ -23,10 +23,9 @@
 .title {
   font-size: 64px;
   font-weight: 700;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
   padding: 8px 8px 0px 8px;
-  width: 700px;
-  margin: auto;
+  text-align: center;
 }
 
 #tree {
@@ -36,7 +35,7 @@
   background-color: #131533;
   color: #FFFFFF;
   font-size: 26px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
   border-radius: 20px;
   margin-top: 20px;
 }
@@ -58,7 +57,7 @@
 
 #hash {
   display: inline-block;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
   font-size: 32px;
   margin-right: 32px;
 }

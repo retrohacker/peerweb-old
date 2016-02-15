@@ -1,7 +1,7 @@
 .heading {
   font-size: 64px;
   font-weight: 700;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
   padding: 8px 8px 0px 8px;
   width: 700px;
   margin: auto;
@@ -57,7 +57,7 @@ a {
 }
 
 .title {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
   font-size: 30px;
   padding: 8px;
 }
